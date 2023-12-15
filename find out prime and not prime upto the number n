@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(){
+     int n;
+    cout<<"Please enter your data" <<endl;
+    cin>>n;
+    int i=2;
+    while (i<n)
+    {
+      if(n%i==0)
+      {cout<<"The number is not prime for : " <<i <<endl;}
+      else{
+        cout << "The number is prime for : " <<i <<endl;
+      }
+      i=i+1;
+    }
+}
