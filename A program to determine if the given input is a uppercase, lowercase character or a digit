@@ -1,0 +1,30 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+  int main(){
+       char ch;
+       cout<<"Please enter the character"<<endl;
+       cin>>ch;
+
+       if (ch>='A' && ch<='Z')  
+       {
+        cout << "Your given input is an uppercase character" << endl;
+       }
+        
+      else if (ch>='a' && ch<='z')
+      {
+        cout << "Your given input is a lowercase character" << endl;
+      }
+
+      else if (ch>='0' && ch<='9')
+      {
+        cout << "Your given input is a digit" << endl;
+      }
+       else 
+      {
+        cout << "Your given input is not uppercase, lowercase, or not even a digit" << endl;
+      }
+
+  }       
+
+     
