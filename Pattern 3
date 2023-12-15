@@ -1,0 +1,40 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(){
+    int n;
+    cout << "Please enter your data: ";
+    cin >> n;
+    int i = 1;
+    int print = n - i + 1;
+
+    while (i <= n)
+    {
+        int j = 1;
+        int space = i - 1;
+        int row = i;
+
+        // Add a loop to print spaces before numbers
+        while (space > 0)
+        {
+            cout << " ";
+            space--; // Decrease the space count
+        }
+
+        // Add a loop to print numbers
+        while (j <= print)
+        {
+            cout << row;
+            j++;
+        }
+
+        // Adjust the print count and row number
+        print--;
+        row++;
+
+        cout << endl;
+        i++;
+    }
+
+    return 0; // Add a return statement to indicate a successful program execution
+}
