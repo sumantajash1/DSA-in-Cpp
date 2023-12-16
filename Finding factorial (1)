@@ -1,0 +1,35 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int factorial(int n, int r){
+    int i=1;
+    int nfact=1;
+    int rfact=1;
+    int nr=(n-r);
+    int nrfact=1;
+    while(i<n){
+      nfact=nfact*n;
+      n--;
+    } 
+    while(i<r){
+      rfact=rfact*r;
+      r--;
+    }
+    while(i<nr){
+      nrfact=nrfact*nr;
+      nr--;
+    }
+    int ans=nfact/(rfact*nrfact);
+    return ans;
+}
+int main(){
+   int n,r;
+   cout<<"Please enter the value of n : ";
+   cin>>n;
+   cout<<"Please enter the value of r : ";
+   cin>>r;
+   
+   int answer=factorial(n,r);
+   cout<<answer<<endl;
+}
