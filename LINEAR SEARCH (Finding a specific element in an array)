@@ -1,0 +1,28 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+ bool Search(int array[], int size, int element){
+        for(int i=0; i<size; i++){
+             if(element=array[i]){
+                 return 1;
+             }
+             else{
+                return 0;
+             }
+        }
+}
+     int main(){
+       int array[5]={1,4,9,11,45};
+       int element;
+       cout<<"Please enter the element you want search for : ";
+       cin>>element;
+
+       bool found=Search(array,5,element);
+       if(found){
+           cout<<element<<" is present in the array";
+       }
+       else{
+           cout<<element<<" is not present in the array";
+       }
+}
