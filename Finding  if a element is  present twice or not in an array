@@ -1,0 +1,35 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+bool search(int array[], int N, int t){
+      int count=0;
+      for(int i=0; i<N; i++){
+          if(t==array[i]){
+             count=count+1;
+             if(count>1){
+                return 1;
+             }
+             
+          }
+          
+      }
+      return 0;
+}
+int main(){
+      int array[100];
+      int N;
+      cin>>N;
+      int t;
+      cin>>t;
+      for(int i=0; i<N; i++){
+          cin>>array[i];
+      }
+     bool found=search(array,N,t);
+     if(found){
+        cout<<"element is present twice"<<endl;
+     }
+     else{
+        cout<<"element is not present twice"<<endl;
+     }
+}
