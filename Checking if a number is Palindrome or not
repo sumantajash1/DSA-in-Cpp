@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(){
+     int n;
+     cout<<"Please enter the number you want to check : ";
+     cin>>n;
+     int num=n;
+     int reverse=0;
+     for(int i=0; n>0; i++){
+         int rem=n%10;
+         reverse=reverse*10+rem;
+         n=n/10;
+     }
+
+    if(reverse==num){
+      cout<<"yes "<<num<<" is a palindrome number"<<endl;
+    }
+    else{
+      cout<<"no "<<num<<" is not a palindrome number"<<endl;
+    }
+    
+}
