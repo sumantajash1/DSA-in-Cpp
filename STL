@@ -1,1 +1,16 @@
+                                    <---:::::ARRAY:::::--->
+#include <array>
+Initializing an array --> array<int,4> a={1,2,3,4};
+Using a specific elements of an array --> a(2);
 
+
+
+
+
+
+
+
+
+                                    <---:::::VECTOR:::::--->
+#include <vector>
+creating a vector --> 
