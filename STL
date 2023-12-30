@@ -2,6 +2,9 @@
 #include <array>
 Initializing an array --> array<int,4> a={1,2,3,4};
 Using a specific elements of an array --> a.at(2);
+size of an array --> 
+using the 1st element of an array --> a.front();
+using the last element of an array --> a.back();
 
 
 
@@ -12,9 +15,14 @@ Using a specific elements of an array --> a.at(2);
 
 
 
-                                    <---:::::VECTOR:::::--->
+                                         <---:::::VECTOR:::::--->
 #include <vector>
 creating a vector --> vector<int>v;
+creating a vector of predefined size (size = 5 and initialize every element as 1 ) --> vector<int>v[5,1];
+print the previous vector -->   for(int i:v){
+                                     cout<<i<<" "<<endl;
+                                  }
+copying a vector to another vector --> vector <int> copy(v);
 printing a specific element of an array --> v.at(2);
 capacity (total memory allocated for the vector) of a vector --> v.capacity();
 size (number of elements present in the array) --> v.size();
@@ -22,3 +30,9 @@ size (number of elements present in the array) --> v.size();
 To add an element in the last index of an array --> v.push_back(1);
 To elemenate the last element in array --> v.pop_back();
 to clear all element of an array and making the size 0 --> v.clear();
+
+
+                                        <---:::::DEQUE:::::--->
+#include <deque>
+creating a deque  --> deque<int> d;
+putting element in deque --> 
