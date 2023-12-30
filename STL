@@ -1,7 +1,8 @@
                                     <---:::::ARRAY:::::--->
 #include <array>
 Initializing an array --> array<int,4> a={1,2,3,4};
-Using a specific elements of an array --> a(2);
+Using a specific elements of an array --> a.at(2);
+
 
 
 
@@ -13,4 +14,11 @@ Using a specific elements of an array --> a(2);
 
                                     <---:::::VECTOR:::::--->
 #include <vector>
-creating a vector --> 
+creating a vector --> vector<int>v;
+printing a specific element of an array --> v.at(2);
+capacity (total memory allocated for the vector) of a vector --> v.capacity();
+size (number of elements present in the array) --> v.size();
+(WE CAN USE "at" "front" "back"  HERE LIKE ARRAY)
+To add an element in the last index of an array --> v.push_back(1);
+To elemenate the last element in array --> v.pop_back();
+to clear all element of an array and making the size 0 --> v.clear();
