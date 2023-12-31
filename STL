@@ -46,6 +46,7 @@ to delete elements from deque --> d.erase(d.begin(), d.begin()+1);
                                      <---:::::SET:::::--->
 
 creating a set --> set<int> s;
-inserting elements in  set --> s.push(1);
-                               s.push(2);
-                               s.push(3);
+inserting elements in  set --> s.insert(1);
+                               s.insert(2);
+                               s.insert(3);
+finding an element in set --> s.find(3);
