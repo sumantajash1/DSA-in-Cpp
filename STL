@@ -44,7 +44,7 @@ to delete elements from deque --> d.erase(d.begin(), d.begin()+1);
 
 
                                      <---:::::SET:::::--->
-
+#include <set>
 creating a set --> set<int> s;
 inserting elements in  set --> s.insert(1);
                                s.insert(2);
@@ -62,7 +62,7 @@ checking --> for(auto it=itr; it!=s.end(); it++){
 
 
                                    <---:::::SET:::::--->
-
+#include <map>
 creating a map --> map<int, string> m;
 inserting element in map --> m[1] = "sumanta";
                              m[2] = "Jash";
@@ -74,3 +74,9 @@ inserting element in map --> m[1] = "sumanta";
 printing the map --> for(auto i:m){
                            cout<<i.first<<" "<<i.second<<endl;
                         }
+
+
+
+                                           <---::::: Algorithm :::::--->
+
+#include <algorithm>
