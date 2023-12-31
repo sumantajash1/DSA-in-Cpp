@@ -48,5 +48,24 @@ to delete elements from deque --> d.erase(d.begin(), d.begin()+1);
 creating a set --> set<int> s;
 inserting elements in  set --> s.insert(1);
                                s.insert(2);
+                               s.insert(2);
                                s.insert(3);
 finding an element in set --> s.find(3);
+to erase a specific element in set --> set<int>::interator it = s.begin();
+                                        i++;
+                                        s.erase(it);
+to cdetermine a specific element is present or not in the set --> s.count(2);
+to find a element in a set --> set<int>::iterator itr = s.find(5);
+checking --> for(auto it=itr; it!=s.end(); it++){
+                                  cout<<*it<<" ";
+                                       }
+
+
+                                   <---:::::SET:::::--->
+
+creating a map --> map<int, string> m;
+inserting element in map --> m[1] = "sumanta";
+                             m[2] = "Jash";
+                             m[3] = "Ayush";
+                             m[4] = "Kumar";
+
