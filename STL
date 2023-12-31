@@ -68,4 +68,9 @@ inserting element in map --> m[1] = "sumanta";
                              m[2] = "Jash";
                              m[3] = "Ayush";
                              m[4] = "Kumar";
+                    or/
+             m.insert ({5, asus});
 
+printing the map --> for(auto i:m){
+                           cout<<i.first<<" "<<i.second<<endl;
+                        }
