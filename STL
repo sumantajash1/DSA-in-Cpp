@@ -27,6 +27,7 @@ printing a specific element of an array --> v.at(2);
 capacity (total memory allocated for the vector) of a vector --> v.capacity();
 size (number of elements present in the array) --> v.size();
 (WE CAN USE "at" "front" "back"  HERE LIKE ARRAY)
+We can use "begin" and  "end" here to use the starting and and ending element in cases like Binary Search [ex :- binary_search(v.begin(),v.end(),6) ]
 To add an element in the last index of an array --> v.push_back(1);
 To elemenate the last element in array --> v.pop_back();
 to clear all element of an array and making the size 0 --> v.clear();
