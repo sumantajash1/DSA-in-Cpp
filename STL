@@ -35,4 +35,10 @@ to clear all element of an array and making the size 0 --> v.clear();
                                         <---:::::DEQUE:::::--->
 #include <deque>
 creating a deque  --> deque<int> d;
-putting element in deque --> 
+putting element in deque --> *back --> d.push_back(1);
+                             *front  --> d.push_front(2);
+deleting element in deque --> *back --> d.pop_back();
+                              *front --> d.pop_front();
+we can also use "at" "front" "back" "empty" statements here for their usual use.
+to delete elements from deque --> d.erase(d.begin(), d.begin()+1); 
+
