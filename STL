@@ -2,7 +2,7 @@
 #include <array>
 Initializing an array --> array<int,4> a={1,2,3,4};
 Using a specific elements of an array --> a.at(2);
-size of an array --> 
+size of an array --> a.size();
 using the 1st element of an array --> a.front();
 using the last element of an array --> a.back();
 
