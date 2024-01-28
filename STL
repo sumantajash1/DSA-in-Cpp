@@ -23,7 +23,7 @@ print the previous vector -->   for(int i:v){
                                      cout<<i<<" "<<endl;
                                   }
 copying a vector to another vector --> vector <int> copy(v);
-printing a specific element of an array --> v.at(2);
+printing a specific element of an vector --> v.at(2);
 capacity (total memory allocated for the vector) of a vector --> v.capacity();
 size (number of elements present in the array) --> v.size();
 (WE CAN USE "at" "front" "back"  HERE LIKE ARRAY)
