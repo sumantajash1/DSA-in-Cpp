@@ -62,7 +62,7 @@ checking --> for(auto it=itr; it!=s.end(); it++){
                                        }
 
 
-                                   <---:::::SET:::::--->
+                                   <---:::::MAP:::::--->
 #include <map>
 creating a map --> map<int, string> m;
 inserting element in map --> m[1] = "sumanta";
